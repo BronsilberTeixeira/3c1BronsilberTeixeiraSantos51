@@ -108,6 +108,7 @@ namespace _3c1BronsilberTeixeiraSantos51.UI
             this.btnExcluir.TabIndex = 65;
             this.btnExcluir.Text = "EXCLUIR";
             this.btnExcluir.UseVisualStyleBackColor = false;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btn_Cadastrar
             // 
@@ -120,6 +121,7 @@ namespace _3c1BronsilberTeixeiraSantos51.UI
             this.btn_Cadastrar.TabIndex = 64;
             this.btn_Cadastrar.Text = "CADASTRAR";
             this.btn_Cadastrar.UseVisualStyleBackColor = false;
+            this.btn_Cadastrar.Click += new System.EventHandler(this.btn_Cadastrar_Click);
             // 
             // txtPreco
             // 

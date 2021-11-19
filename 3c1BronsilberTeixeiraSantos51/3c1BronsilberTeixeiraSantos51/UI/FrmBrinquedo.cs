@@ -35,5 +35,20 @@ namespace _3c1BronsilberTeixeiraSantos51.UI
             txtPreco.Text = dvgBrinquedos.Rows[e.RowIndex].Cells[2].Value.ToString();
             txtMarca.Text = dvgBrinquedos.Rows[e.RowIndex].Cells[3].Value.ToString();
         }
+
+        private void btn_Cadastrar_Click(object sender, EventArgs e)
+        {
+            brinquedoDTO.codigo = int.Parse(txtCodigo.Text);
+            brinquedoDTO.preco = double.Parse(txtPreco.Text);
+            brinquedoDTO.nome = txtNome.Text;
+            brinquedoDTO.marca = txtMarca.Text;
+        }
+
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+            brinquedoDTO.codigo = int.Parse(txtCodigo.Text);
+            brinquedoBLL.excluir(brinquedoDTO);
+            brinquedoBLL.Listar();
+        }
     }
 }
