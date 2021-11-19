@@ -16,7 +16,7 @@ namespace _3c1BronsilberTeixeiraSantos51.BLL
 
         public void Inserir(BrinquedoDTO Brinquedodto)
         {
-            string inserir = $"insert into {tabela} values({Brinquedodto.nome}, '{Brinquedodto.codigo}','{Brinquedodto.preco}','{Brinquedodto.categoria}', '{Brinquedodto.marca}')";
+            string inserir = $"insert into {tabela} values({Brinquedodto.nome}, '{Brinquedodto.codigo}','{Brinquedodto.preco}', '{Brinquedodto.marca}')";
             conexao.ExecutarComando(inserir);
         }
         public DataTable Listar()
