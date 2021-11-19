@@ -66,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="UI\FrmBrinquedo.resx">
+      <DependentUpon>FrmBrinquedo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\frmUsuario.resx">
       <DependentUpon>frmUsuario.cs</DependentUpon>
     </EmbeddedResource>
