@@ -42,6 +42,9 @@ namespace _3c1BronsilberTeixeiraSantos51.UI
             brinquedoDTO.preco = double.Parse(txtPreco.Text);
             brinquedoDTO.nome = txtNome.Text;
             brinquedoDTO.marca = txtMarca.Text;
+            brinquedoBLL.Inserir(brinquedoDTO);
+            MessageBox.Show("Cadastrado com sucesso!", "Motor", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            brinquedoBLL.Listar();
         }
 
         private void btnExcluir_Click(object sender, EventArgs e)

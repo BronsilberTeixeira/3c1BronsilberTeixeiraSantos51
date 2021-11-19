@@ -22,3 +22,4 @@ C:\Users\HP\OneDrive\Documentos\GitHub\3c1BronsilberTeixeiraSantos51\3c1Bronsilb
 C:\Users\HP\OneDrive\Documentos\GitHub\3c1BronsilberTeixeiraSantos51\3c1BronsilberTeixeiraSantos51\3c1BronsilberTeixeiraSantos51\obj\Debug\3c1BronsilberTeixeiraSantos51.csproj.CopyComplete
 C:\Users\HP\OneDrive\Documentos\GitHub\3c1BronsilberTeixeiraSantos51\3c1BronsilberTeixeiraSantos51\3c1BronsilberTeixeiraSantos51\obj\Debug\3c1BronsilberTeixeiraSantos51.exe
 C:\Users\HP\OneDrive\Documentos\GitHub\3c1BronsilberTeixeiraSantos51\3c1BronsilberTeixeiraSantos51\3c1BronsilberTeixeiraSantos51\obj\Debug\3c1BronsilberTeixeiraSantos51.pdb
+C:\Users\HP\OneDrive\Documentos\GitHub\3c1BronsilberTeixeiraSantos51\3c1BronsilberTeixeiraSantos51\3c1BronsilberTeixeiraSantos51\obj\Debug\_3c1BronsilberTeixeiraSantos51.UI.FrmBrinquedo.resources
