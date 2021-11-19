@@ -52,6 +52,12 @@
     <Compile Include="DAL\Conexao.cs" />
     <Compile Include="DTO\BrinquedoDTO.cs" />
     <Compile Include="DTO\usuarioDTO.cs" />
+    <Compile Include="UI\FrmBrinquedo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FrmBrinquedo.Designer.cs">
+      <DependentUpon>FrmBrinquedo.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\frmUsuario.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -33,7 +33,7 @@ namespace _3c1BronsilberTeixeiraSantos51
             this.txtemail = new System.Windows.Forms.TextBox();
             this.lblEmail = new System.Windows.Forms.Label();
             this.lbl_Cpf = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.txtCpf = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnEntrar
@@ -47,6 +47,7 @@ namespace _3c1BronsilberTeixeiraSantos51
             this.btnEntrar.TabIndex = 62;
             this.btnEntrar.Text = "Entrar";
             this.btnEntrar.UseVisualStyleBackColor = false;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // txtemail
             // 
@@ -76,13 +77,12 @@ namespace _3c1BronsilberTeixeiraSantos51
             this.lbl_Cpf.TabIndex = 58;
             this.lbl_Cpf.Text = "cpf";
             // 
-            // maskedTextBox1
+            // txtCpf
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(333, 206);
-            this.maskedTextBox1.Mask = "999.999.999-99";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(137, 20);
-            this.maskedTextBox1.TabIndex = 63;
+            this.txtCpf.Location = new System.Drawing.Point(335, 218);
+            this.txtCpf.Name = "txtCpf";
+            this.txtCpf.Size = new System.Drawing.Size(135, 20);
+            this.txtCpf.TabIndex = 63;
             // 
             // frmUsuario
             // 
@@ -90,7 +90,7 @@ namespace _3c1BronsilberTeixeiraSantos51
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.txtCpf);
             this.Controls.Add(this.btnEntrar);
             this.Controls.Add(this.txtemail);
             this.Controls.Add(this.lblEmail);
@@ -108,7 +108,7 @@ namespace _3c1BronsilberTeixeiraSantos51
         private System.Windows.Forms.TextBox txtemail;
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.Label lbl_Cpf;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.TextBox txtCpf;
     }
 }
 
