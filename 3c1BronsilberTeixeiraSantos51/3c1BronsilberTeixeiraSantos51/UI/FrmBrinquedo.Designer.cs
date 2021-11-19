@@ -34,13 +34,13 @@ namespace _3c1BronsilberTeixeiraSantos51.UI
             this.txtNome = new System.Windows.Forms.MaskedTextBox();
             this.lblNome = new System.Windows.Forms.Label();
             this.txtCodigo = new System.Windows.Forms.MaskedTextBox();
-            this.dgvProdutos = new System.Windows.Forms.DataGridView();
+            this.dvgBrinquedos = new System.Windows.Forms.DataGridView();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btn_Cadastrar = new System.Windows.Forms.Button();
             this.txtPreco = new System.Windows.Forms.TextBox();
             this.lblPreco = new System.Windows.Forms.Label();
             this.lbl_codigo = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvProdutos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dvgBrinquedos)).BeginInit();
             this.SuspendLayout();
             // 
             // txtMarca
@@ -85,16 +85,17 @@ namespace _3c1BronsilberTeixeiraSantos51.UI
             this.txtCodigo.Size = new System.Drawing.Size(100, 20);
             this.txtCodigo.TabIndex = 67;
             // 
-            // dgvProdutos
+            // dvgBrinquedos
             // 
-            this.dgvProdutos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvProdutos.Location = new System.Drawing.Point(344, 11);
-            this.dgvProdutos.Margin = new System.Windows.Forms.Padding(2);
-            this.dgvProdutos.Name = "dgvProdutos";
-            this.dgvProdutos.RowHeadersWidth = 62;
-            this.dgvProdutos.RowTemplate.Height = 28;
-            this.dgvProdutos.Size = new System.Drawing.Size(445, 413);
-            this.dgvProdutos.TabIndex = 66;
+            this.dvgBrinquedos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dvgBrinquedos.Location = new System.Drawing.Point(344, 11);
+            this.dvgBrinquedos.Margin = new System.Windows.Forms.Padding(2);
+            this.dvgBrinquedos.Name = "dvgBrinquedos";
+            this.dvgBrinquedos.RowHeadersWidth = 62;
+            this.dvgBrinquedos.RowTemplate.Height = 28;
+            this.dvgBrinquedos.Size = new System.Drawing.Size(445, 413);
+            this.dvgBrinquedos.TabIndex = 66;
+            this.dvgBrinquedos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dvgBrinquedos_CellContentClick);
             // 
             // btnExcluir
             // 
@@ -158,7 +159,7 @@ namespace _3c1BronsilberTeixeiraSantos51.UI
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.lblNome);
             this.Controls.Add(this.txtCodigo);
-            this.Controls.Add(this.dgvProdutos);
+            this.Controls.Add(this.dvgBrinquedos);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btn_Cadastrar);
             this.Controls.Add(this.txtPreco);
@@ -166,7 +167,8 @@ namespace _3c1BronsilberTeixeiraSantos51.UI
             this.Controls.Add(this.lbl_codigo);
             this.Name = "FrmBrinquedo";
             this.Text = "FrmBrinquedo";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvProdutos)).EndInit();
+            this.Load += new System.EventHandler(this.FrmBrinquedo_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dvgBrinquedos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -179,7 +181,7 @@ namespace _3c1BronsilberTeixeiraSantos51.UI
         private System.Windows.Forms.MaskedTextBox txtNome;
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.MaskedTextBox txtCodigo;
-        private System.Windows.Forms.DataGridView dgvProdutos;
+        private System.Windows.Forms.DataGridView dvgBrinquedos;
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btn_Cadastrar;
         private System.Windows.Forms.TextBox txtPreco;
